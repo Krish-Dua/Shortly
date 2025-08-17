@@ -44,7 +44,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-white flex flex-col">
+    <div className="min-h-[100dvh] bg-gradient-to-br from-blue-100 to-white flex flex-col">
       <header className="w-full py-6 sm:py-8 bg-white p-4 shadow-sm">
         <div className="max-w-2xl mx-auto flex flex-col items-center text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-700 tracking-tight mb-2">Shortly</h1>
@@ -53,7 +53,7 @@ function App() {
           </p>
         </div>
       </header>
-      <main className="flex-1 flex flex-col items-center justify-center px-4">
+      <main className="flex-1 flex flex-col items-center mt-14 px-4">
         <div className="w-full max-w-xl bg-white rounded-2xl shadow-lg p-6 sm:p-8 mt-10 flex flex-col gap-6">
           <input
             className="text-base sm:text-lg p-3 rounded-lg border border-blue-200 focus:border-blue-500 outline-none transition w-full bg-blue-50 placeholder-blue-300"
