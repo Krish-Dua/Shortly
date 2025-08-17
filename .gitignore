@@ -1,0 +1,30 @@
+# === Node backend ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+
+# OS junk
+Thumbs.db
+
+# === Vite React frontend ===
+/vite-react-app/node_modules/
+/vite-react-app/dist/
+/vite-react-app/.env
+/vite-react-app/.DS_Store
+/vite-react-app/package-lock.json
+
+# Editor files
+.idea/
+.vscode/
+*.swp
