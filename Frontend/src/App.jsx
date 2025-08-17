@@ -16,7 +16,7 @@ function App() {
       return;
     }
     setisDisabled(true)
-    let res = await fetch("http://localhost:3000/api/CreateShortUrl", {
+    let res = await fetch("https://shortly-dl2q.onrender.com/api/CreateShortUrl", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
